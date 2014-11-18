@@ -8,3 +8,5 @@ A Heads Up Display for Janus VR.
 ```html
 <AssetScript src="assets/js/hud.js" />
 ```
+
+You can view this in Janus by opening a portal to http://jeradbitner.com/JanusVR-HUD/index.html
