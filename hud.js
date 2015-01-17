@@ -1,3 +1,7 @@
+// create our vector references
+var player_facing = Vector(1);
+var hud_pos = Vector(0, 1.40, 0);
+
 room.onLoad = function () {
   // create our text object
   room.createObject('Text', {
@@ -6,10 +10,6 @@ room.onLoad = function () {
     pos : Vector(0, 0, 0),
     fwd : scalarMultiply(player.view_dir, -1) // face player
   });
-
-  // create our vector references
-  var player_facing = Vector(1);
-  var hud_pos = Vector(0, 1.40, 0);
 };
 
 room.update = function (dt) {
