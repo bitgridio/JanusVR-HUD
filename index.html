@@ -1,17 +1,16 @@
 <html>
 	<head>
-		<title>Janus VR HUD demo</title>
+		<title>Janus VR WebRTC</title>
 	</head>
 	<body>
-    <h1>This is an example of using the Janus VR HUD JavaScript library.</h1>
+    <h1>WebRTC Test</h1>
 		<FireBoxRoom>
 			<Assets>
 				<AssetObject id="plane" src="assets/plane.obj" />
-				<AssetWebSurface id="github" src="https://github.com/bitgridio/JanusVR-HUD/blob/gh-pages/README.md" width="1920" height="1080" />
-        		<AssetScript src="../JanusVR-HUD/hud.js" />
+				<AssetWebSurface id="voice" src="https://room.co/#/vzl1o0ps6hjpds4i" width="1920" height="1080" />
 			</Assets>
 			<Room use_local_asset="room_plane" col="0 0 0">
-				<Object id="plane" websurface_id="github" pos="1 1 3" xdir="1.000 0.000 0.000" ydir="0.000 0.000 1.000" zdir="0.000 -1.000 0.000" scale="20.300 4.900 12.100" />
+				<Object id="plane" websurface_id="voice" pos="1 1 5" xdir="1.000 0.000 0.000" ydir="0.000 0.000 1.000" zdir="0.000 -1.000 0.000" scale="20.300 4.900 12.100" />
 			</Room>
 		</FireBoxRoom>
 	</body>
